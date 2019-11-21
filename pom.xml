@@ -241,7 +241,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
-            <!--
+            <!--&lt;!&ndash;-->
             <plugin>
                 <groupId>org.mybatis.generator</groupId>
                 <artifactId>mybatis-generator-maven-plugin</artifactId>
@@ -273,7 +273,7 @@
                     <configurationFile>src/main/resources/config/mybatis-generator.xml</configurationFile>
                 </configuration>
             </plugin>
-            -->
+            <!--&ndash;&gt;-->
             <plugin>
                 <groupId>com.spotify</groupId>
                 <artifactId>docker-maven-plugin</artifactId>
