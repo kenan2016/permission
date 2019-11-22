@@ -8,9 +8,9 @@ import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 import tk.mybatis.spring.annotation.MapperScan;
-
 @SpringBootApplication
 @EnableTransactionManagement
+//@MapperScan("com.springboot.mapper")
 @MapperScan("com.cn.permission.*.dao")
 @EnableConfigurationProperties({FebsProperties.class})
 @EnableCaching
